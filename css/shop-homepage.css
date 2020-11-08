@@ -1,0 +1,112 @@
+
+body {
+  padding-top: 56px;
+  background-color: #F1F3F6;
+}
+nav{position:absolute;z-index:99999;}
+.navbar-dark{background-color: #512DAB;}
+.footer{background-color:#D1C4E9;padding-top:20px;}
+
+.jumbotron {
+  margin: 0px auto;
+  padding: 70px 30px;
+  background: #2874F0;
+  color: floralwhite; }
+#grab{
+  background: #512DAB;
+  color:floralwhite;
+}
+#loginModal .modal-header {
+  background: #512DA8;
+  color: floralwhite; }
+ 
+  
+  #loginModal .modal-header .close {
+    color: floralwhite; }
+
+#loginModal .modal-body {
+  background: #D1C4E9; }
+#signinModal .modal-header {
+    background: #512DA8;
+    color: floralwhite; }
+#signinModal .modal-header .close {
+      color: floralwhite; }
+     
+      #search-layer{
+        position:absolute; 
+        background:rgba(255,255,255,0.5); 
+        z-index:9; 
+        left:0px; 
+        top:0px;
+        }
+      #livesearch{
+        position:absolute;
+        z-index:999999; 
+        background:#0071b4;
+        max-height:260px;
+        overflow:auto; 
+        width:90%;
+        box-shadow:0px 2px 4px #444; 
+        margin-left:1.2%;
+        }
+      /***********************************/
+      .live-outer{
+        width:100%; 
+        height:60px;
+        border-bottom:1px solid #ccc; 
+        background:#fff;
+        }
+      .live-outer:hover{
+        background:#F3F3F3;
+        }
+      .live-im{
+        float:left;
+        width:10%; 
+        height:60px;
+        }
+      .live-im img{
+        width:100%; 
+        height:100%;
+        }
+      .live-product-det{
+        float:left; 
+        width:85%; 
+        height:60px;
+        margin-left:5px;
+        }
+        @media only screen and (max-width: 600px) {
+          .live-im{
+             width:20%; 
+            }
+            .live-product-det{
+              width:75%; 
+              }
+        }
+      .live-product-name{
+        width:100%; 
+        height:22px; 
+        margin-top:4px;
+        }
+      .live-product-name p{
+        margin:0px;
+        color:#333;
+        text-shadow: 1px 1px 1px #DDDDDD;
+        font-size:17px;
+        }
+      .live-product-price{
+        width:100%;
+        height:25px;
+        }
+      .live-product-price-text{
+        float:left; 
+        width:50%;
+        }
+      .live-product-price-text p{
+        margin:0px;
+        font-size:16px;
+        }
+      .link-p-colr{
+        color:#333;
+        }
+#items{}
+#side-bar{}

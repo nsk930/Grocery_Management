@@ -1,0 +1,89 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>CodePen - Off Canvas Navbar - toggle always visible - Bootstrap 4</title>
+<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="fontawesome/css/all.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.min.css" integrity="sha256-rFMLRbqAytD9ic/37Rnzr2Ycy/RlpxE5QH52h7VoIZo=" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/mdb.min.css">
+<link rel='stylesheet' href='css/menu.css'>
+
+</head>
+<body translate="no">
+<section class="bg-primary">
+<div class="container">
+
+<nav class="navbar fixed-top navbar-light bg-dark navbar-offcanvas">
+<button class="navbar-toggler" type="button" id="navToggle"><span class="navbar-toggler-icon"></span> </button>
+
+<a class="navbar-brand mr-auto text-white" href="#">Offcanvas navbar - toggle always visible</a>
+
+
+
+<div class="navbar-collapse offcanvas-collapse" >
+<ul class="navbar-nav mr-auto">
+<li class="nav-item active">
+<a class="nav-link" href="#">Dashboard <span class="sr-only">(current)</span></a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#">Notifications</a>
+</li>
+ <li class="nav-item">
+<a class="nav-link" href="#">Profile</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#">Switch account</a>
+</li>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="https://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Settings</a>
+<div class="dropdown-menu" aria-labelledby="dropdown01">
+<a class="dropdown-item" href="#">Action</a>
+<a class="dropdown-item" href="#">Another action</a>
+<a class="dropdown-item" href="#">Something else here</a>
+</div>
+</li>
+</ul>
+</div>
+</nav>
+
+</div>
+
+</section>
+<section>
+<div class="container mt-3">
+This demo is a remix of the <a href="https://getbootstrap.com/docs/4.1/examples/offcanvas/">off canvas example</a> on the Bootstrap 4 documentation.
+</div>
+</section>
+<script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="js/mdb.min.js"> </script>
+<script id="rendered-js">
+$(document).ready(function () {
+  // executes when HTML-Document is loaded and DOM is ready
+  console.log("document is ready");
+
+
+  $('[data-toggle="offcanvas"], #navToggle').on('click', function () {
+    $('.offcanvas-collapse').toggleClass('open');
+  });
+
+
+  // document ready  
+});
+
+
+window.onload = function () {
+  // executes when complete page is fully loaded, including all frames, objects and images
+  console.log("window is loaded");
+
+
+  // window load  
+};
+//# sourceURL=pen.js
+    </script>
+</body>
+</html>
